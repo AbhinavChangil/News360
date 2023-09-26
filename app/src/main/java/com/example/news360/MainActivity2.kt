@@ -45,24 +45,24 @@ class MainActivity2 : AppCompatActivity(), NewsItemClicked {
 //        }
 
 
-//        api-key = https://newsapi.org/v2/everything?q=apple&from=2022-08-05&to=2022-08-05&sortBy=popularity&apiKey=c22aed47c5b74cab83e8c8a2eb96a4b0
+//        api-key = https://newsapi.org/v2/everything?q=apple&from=2022-08-05&to=2022-08-05&sortBy=popularity&apiKey=YOUR_API_KEY
 
 
         val requestQueue: RequestQueue = Volley.newRequestQueue(this)
 
-//        val url = "https://www.googleapis.com/blogger/v3/blogs/2399953/posts?key=AIzaSyCeaDf-mcoFzBF7yl4o0ROFj3zMs28VVjw"
+//        val url = "https://www.googleapis.com/blogger/v3/blogs/2399953/posts?key=YOUR_API_KEY"
 
 //        val url =
-//            "https://newsdata.io/api/1/news?apikey=pub_9963abeff3f3ab95ec66a90e408fc430f151&country=in&language=hi"
+//            "https://newsdata.io/api/1/news?apikey=YOUR_API_KEY&country=in&language=hi"
 
 
 
 
 
-        val url1 = "https://newsdata.io/api/1/news?apikey=pub_9963abeff3f3ab95ec66a90e408fc430f151&country=in&language=en"
+        val url1 = "https://newsdata.io/api/1/news?apikey=YOUR_API_KEY&country=in&language=en"
 
-//        val url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=c22aed47c5b74cab83e8c8a2eb96a4b0"
-//          val url = "http://api.mediastack.com/v1/news?access_key=058ccfc965407af30df4de6049f356a0"
+//        val url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=YOUR_API_KEY"
+//          val url = "http://api.mediastack.com/v1/news?access_key=YOUR_API_KEY"
         val jsonObjectRequest1 = JsonObjectRequest(
             Request.Method.GET,
             url1,
@@ -108,10 +108,8 @@ class MainActivity2 : AppCompatActivity(), NewsItemClicked {
 
         //Volley.newRequestQueue(this).add(jsonObjectRequest)
         //MySingleton.getInstance(this)?.addToRequestQueue(jsonObjectRequest)
-        val url = "https://newsdata.io/api/1/news?apikey=pub_9963abeff3f3ab95ec66a90e408fc430f151&country=in&language=en"
+        val url = "https://newsdata.io/api/1/news?apikey=YOUR_API_KEY&country=in&language=en"
 
-//        val url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=c22aed47c5b74cab83e8c8a2eb96a4b0"
-//          val url = "http://api.mediastack.com/v1/news?access_key=058ccfc965407af30df4de6049f356a0"
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET,
             url,
@@ -166,10 +164,8 @@ class MainActivity2 : AppCompatActivity(), NewsItemClicked {
 
 
         eng2.setOnClickListener {
-            val url = "https://newsdata.io/api/1/news?apikey=pub_9963abeff3f3ab95ec66a90e408fc430f151&country=in&language=en"
+            val url = "https://newsdata.io/api/1/news?apikey=YOUR_API_KEY&country=in&language=en"
 
-//        val url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=c22aed47c5b74cab83e8c8a2eb96a4b0"
-//          val url = "http://api.mediastack.com/v1/news?access_key=058ccfc965407af30df4de6049f356a0"
             val jsonObjectRequest = JsonObjectRequest(
                 Request.Method.GET,
                 url,
@@ -223,10 +219,8 @@ class MainActivity2 : AppCompatActivity(), NewsItemClicked {
 
 
     hindi2.setOnClickListener {
-        val url = "https://newsdata.io/api/1/news?apikey=pub_9963abeff3f3ab95ec66a90e408fc430f151&country=in&language=hi"
+        val url = "https://newsdata.io/api/1/news?apikey=YOUR_API_KEY&country=in&language=hi"
 
-//        val url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=c22aed47c5b74cab83e8c8a2eb96a4b0"
-//          val url = "http://api.mediastack.com/v1/news?access_key=058ccfc965407af30df4de6049f356a0"
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET,
             url,
